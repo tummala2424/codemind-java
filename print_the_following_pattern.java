@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class pattern
+class classname
 {
     public static void main(String args[])
     {
@@ -8,15 +8,11 @@ class pattern
         n=sc.nextInt();
         for(int i=1;i<=n;i++)
         {
-            for(int j=1;j<=n;j++)
-            {
-                if(i==j)
-                   System.out.print("0");
-                else
-                   System.out.print("x");
-            }
-            System.out.println();
+            for(int j=n;j>=1;j--)
+              {
+               System.out.print(j+" ");
+              }
+             System.out.println();
         }
-        sc.close();
     }
 }
