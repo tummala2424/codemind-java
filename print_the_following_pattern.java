@@ -10,10 +10,10 @@ class pattern
         {
             for(int j=1;j<=n;j++)
             {
-                if(j==1||j==i||i==n)
-                    System.out.print("*");
+                if(i==j)
+                   System.out.print("0");
                 else
-                    System.out.print(" ");
+                   System.out.print("x");
             }
             System.out.println();
         }
