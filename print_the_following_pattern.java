@@ -1,18 +1,20 @@
 import java.util.Scanner;
-class classname
+class number
 {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        int n;
+        char c;
+        int n,i,j,k=1;
         n=sc.nextInt();
-        for(int i=1;i<=n;i++)
+        for(c=65;k<=n;c++)
         {
-            for(int j=n;j>=1;j--)
-              {
-               System.out.print(j+" ");
-              }
-             System.out.println();
+            k+=1;
+            for(j=0;j<n;j++)
+            {
+                System.out.print((char)c+" ");
+            }
+            System.out.println();
         }
     }
 }
